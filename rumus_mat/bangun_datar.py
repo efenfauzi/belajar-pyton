@@ -52,7 +52,7 @@ def luas_jajargenjang():
 	luas = alas*tinggi
 	return luas
 def keliling_jajargenjang():
-	sisimiring = (((alas-alastB)**2)+(tinggi**2))**0.5
+	sisimiring = (((alas-alastB)**2)+(tinggi**2))**0.5 #alas AB = At + tB merupakan jumlah 2 garis yg berada pada tegak lurus garis t
 	keliling = (2*alas)+(2*sisimiring)
 	return keliling
 
